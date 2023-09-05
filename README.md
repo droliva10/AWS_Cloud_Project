@@ -66,8 +66,8 @@ password to authenticate the RDP sesssion. For macOS users, download macOS clien
 ## Section Three
 Configure the Windows Server with FlareVM.
 After FlareVM and dependencies/packages are installed, an AMI will be created following the installation.
-Install both Chrome and Firefox browsers. If there is an particular malware analysis tool you are requiring
-for your lab environment, now would be a good time to install. If you setup and run INeTSim you will be isolated from
+Install both Chrome and Firefox browsers. If there is any particular malware analysis tools you are requiring
+for your sandbox environment, now would be a good time to install. If you setup and run INeTSim you will be isolated from
 the internet.
 
 1. While in the the newly create instance, open a browser of yourt choice and download the raw file. This is the
