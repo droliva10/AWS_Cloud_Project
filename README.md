@@ -34,7 +34,7 @@ Connect to instance via RDP.
 2. Click the box for the new instance you want to connect to and click connect. 
 ![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
 
-3. Click the RDP client tab. If you are using Windows, download remote desktop file. For macOS for to step 4.
+3. Click the RDP client tab. If you are using Windows, download remote desktop file. For macOS go to step 4.
 
 Username:
 ```
