@@ -20,7 +20,7 @@ In the below instrunction you will “Launch an AWS instance”.
    
 ![Capture43](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/edac3c98-7b0d-46b9-a9e9-e7ddac2b0df7)
 
-9. In Network setting: Use default settings and make sure RDP is selected.
+9. In Network settings: Use default settings and make sure RDP is selected.
     
 ![Capture44](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c39d0045-ebb5-4f01-aab5-5c0c6c3a786b)
 
