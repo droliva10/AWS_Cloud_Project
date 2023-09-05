@@ -16,7 +16,7 @@ In the below instrunction you will “Launch an AWS instance”.
    
 ![Capture42](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/02befa26-04e0-4282-b984-4d3290038c30)
 
-7. In Key pair(login): Click "Create key pair", and keep defaults.
+7. In Key pair(login): Click "Create key pair", name key pair and keep default settings.
    
 ![Capture43](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/edac3c98-7b0d-46b9-a9e9-e7ddac2b0df7)
 
