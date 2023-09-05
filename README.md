@@ -6,7 +6,7 @@ In the below instrunction you will “Launch an AWS instance”.
 
 1. In Name and tags field: Name Instance.
    
-![Capture40](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9874d7d3-a946-4f7c-bbce-c9b59f2018a9)
+!(AWS_Cloud_Project/Capture40.JPG)
 
 3. In Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base.
    
