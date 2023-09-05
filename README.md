@@ -1,4 +1,4 @@
-# AWS_Cloud_Project
+# AWS_Cloud_Sandbox_Project
 ## Section One
 Launching an AWS Instance. 
 Make sure you are aware of what region you are in, select the region that is closest to you.  
