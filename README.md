@@ -130,33 +130,33 @@ While instance is stil selected, click Actions drop down then select Images and 
 
 2. Name the image, keep default setting and click "Create image"
 
-![Screenshot 2023-08-31 224351](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/b2249ce2-68d6-4f2b-9ca3-f4c039e746d5)
+<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 224351.png">
 
 ## Section Five
 Create user.
 
 1. Duplicate tab and navigate to AWS IAM.
 
-![Screenshot 2023-08-31 224919](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/1e716f43-3639-4000-af74-fa4124a6c223)
+<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 224919.png">
 
 2. Go to Users and click "Create users".
 Name it and click "Next"
 
-![Capture51](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9023e3b3-0842-4c1d-8951-9dbae355637f)
+<img src = "AWS_Cloud_Project/Capture51.JPG">
 
 3. Click "Create group" to create user group.
 Name user group, "XXX-Full-Access" and search "ec2f" in the search bar under permissions policies. Check mark the box,
 then click "Create user group".
 
-![Capture52](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/2c8ff629-0325-4d00-87c3-157681b253a0)
+<img src = "AWS_Cloud_Project/Capture52.JPG">
 
 4. Next check mark the Group name in User groups, and click "Next"
 
-![Screenshot 2023-08-31 230243](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/fe0c4be4-95d1-4444-ac20-8d910d2505b1)
+<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 230243.png">
 
 6. Now click "Create user" to finalize.
 
-![Screenshot 2023-08-31 230416](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/5a7f4d30-b154-4627-a440-51ddcd216670)
+<img src ="AWS_Cloud_Project/Screenshot 2023-08-31 230416.png">
 
 ## Section Six
 Create access key.
@@ -164,29 +164,29 @@ Stay in IAM>Users
 
 1. Click the new user name.
 
-![Screenshot 2023-08-31 230613](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/ee2dd7fc-87ff-4d93-ade1-5c6996d97783)
+<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 230613.png">
 
 2. Click "Security credentials" tab and scroll down to Access keys field.
 
-![Capture57](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/164b2af5-390c-41e5-9593-1b5393955ff3)
+<img src ="AWS_Cloud_Project/Capture57.JPG">
 
 3. Click "Create access key".
 
-![Capture58](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/e151315b-49dc-4875-a5cb-8cf4ff9afff1)
+<img src ="AWS_Cloud_Project/Capture58.JPG">
 
 4. Select "Command Line Interface (CLI) and select confirmation check box at the bottom, then click "Next"
 
-![Screenshot 2023-08-31 231559](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/ada66073-1f9f-4d54-9477-2b1e208c0eab)
+<img src ="AWS_Cloud_Project/Screenshot 2023-08-31 231559.png">
 
 5. Enter destription from Description tag value.
 Name is "XXX-Access-Key" and click "Create access key"
 
-![Capture61](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/dd6f5782-4655-4dba-8023-f7e4589c7765)
+<img src ="AWS_Cloud_Project/Capture61.JPG">
 
 6. Retrive access key and secret key, copy them and paste in a document and click "Done".
 This will be the only time you will be able to copy both keys.
 
-![Capture8](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/aba40879-3d3b-4d3a-84b0-d9939a1f5d64)
+<img src ="AWS_Cloud_Project/Capture8.JPG">
 
 ## Section Seven
 Setting remote acces to AWS.
@@ -227,7 +227,7 @@ Run Command:
 ```
 cd malware-cloud-lab
 ```
-![Capture9](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/2260e0be-518c-4b3f-a799-a55ec13a3353)
+<img src ="AWS_Cloud_Project/Capture9.JPG">
 
 3. Run AWS-CLI to setup remote access.
 
@@ -240,7 +240,7 @@ At the prompt enter Secret Key and hit enter.
 Next enter the region the AWS instance and hit enter 
 Then type “json” and hit enter.
 
-![Capture63](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/7e936d71-c3e9-4149-88f5-cbcc84c740b6)
+<img src ="AWS_Cloud_Project/Capture63.JPG">
 
 ## Section Nine
 Pull AWS-malware-lab clone.
@@ -284,15 +284,15 @@ and "enable_inetsim" false. If you want to isolate instance during malware deton
 }
 ```
 
-![Capture11](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/a140fe31-b28e-4297-86d7-10697d8158eb)
-![Capture20](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/fbaee5e8-e68a-4bf3-b934-32eea9a77655)
-
+<img src ="AWS_Cloud_Project/Capture11.JPG">
+<img src ="AWS_Cloud_Project/Capture20.JPG">
+   
 ## Section Eleven
 Edit AWS-malware-lab files.
 
 1. Go to AWS console and navigate to the AMI catalog. In the search bar search for "unbuntu". Copy the ami string.
 
-![Capture13](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/334776cb-a34c-4354-a264-e18ec1e02d73)
+<img src ="AWS_Cloud_Project/Capture13.JPG">
 
 2. Return to your local machine command line.
 
@@ -303,16 +303,16 @@ terraform –version
 
 This will outout the terraform version.
 
-![Capture35](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/4d9024fc-13b1-46f5-aa0f-280e4c91b6eb)
+<img src ="AWS_Cloud_Project/Capture35.JPG">
 
 3. Open main.tf with a text editor. On the second line, edit terraform verion with the version output. Save exit editor.
 
-![Capture37](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/01e0d7df-6af2-4765-8315-823bb6972e3b)
+<img src ="AWS_Cloud_Project/Capture37.JPG">
 
 4. Open instance.tf with a editor.
 Scroll down to “Linux instance with INeTSim” Edit the ami with the ami string you copied from step 1 of this section.
 
-![Capture38](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/3d0871fc-7d6f-48f0-bcc6-768051ee613c)
+<img src ="AWS_Cloud_Project/Capture38.JPG">
 
 ## Section Twelve
 Build the AWS infrastructure.
@@ -341,7 +341,7 @@ terraform apply
 4. At the prompt type “yes”.
 The AWS infrastructure will begin building. At the completion of the build copy the output IP.
 
-![Capture32](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/74b48f06-fc3b-47b1-9fff-23a1f278e897)
+<img src ="AWS_Cloud_Project/Capture32.JPG">
 
 ## Section Thirteen
 Connect to malware lab/sandbox environment.
@@ -374,7 +374,7 @@ terraform destroy
 
 2. Enter “yes’ when prompted.
 
-![Capture34](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/e1c11b01-5b72-4a7c-8b21-403dbcc1d6f2)
+<img src ="AWS_Cloud_Project/Capture34.JPG">
 
 ## COST
 AWS On-demand Windows base: 0.0732 USD per Hour
