@@ -70,8 +70,8 @@ Install both Chrome and Firefox browsers. If there is any particular malware ana
 for your sandbox environment, now would be a good time to install. If you setup and run INeTSim you will be isolated from
 the internet.
 
-1. While in the the newly create instance, open a browser of yourt choice and download the raw file. This is the
-Mandiant flare-VM script that will be the bases of you lab enviornment.
+1. While in the the newly create instance, open a browser of your choice and download the raw file. This is the
+Mandiant flare-VM script that will be the bases of you sandbox enviornment.
 
 [Go to URL:] (https://github.com/mandiant/flare-vm/blob/main/install.ps1)
 
@@ -89,7 +89,7 @@ At the prompt type "yes" and hit enter. Now minimize powershell.
 
 3. Disable Microsoft Defender:
 Navigate to Proxy settings and turn off "Automatically detect settings".
-Navigate to Local Group Policy Editor, typing group in the search bar.
+Navigate to Local Group Policy Editor, typing "group" in the search bar to query.
 Once in the Local Group Policy Editor, navigate to Window Defender Antivirus.
 Computer Configuration>Administrative Templates>Windows Components>Microsoft Defender Antivirus
 Open "Turn off Microsoft Defender Antivirus" and click enable, then apply and save.
@@ -106,9 +106,9 @@ Open Window Defender Firewall: Protect all network connections: click disable, t
 
 ![Capture5](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9f317b2d-d442-46be-a816-62a66a065e3f)
 
-4. Now click powershell that you minimized in step 2.
+4. Now click powershell on the bottom bar, which you minimized in step 2.
 
-Run commmand:
+Run Command:
 ```
 ./install.ps1
 ```
@@ -116,15 +116,15 @@ Run commmand:
 There will be multiple checks enter Yes "Y" and hit enter. When you get to Administrator password, enter the 
 the decrypted password user used to first sign into the server. A dialog box will open after the script runs,
 with default packages selected. You can add or remove packages here, in most case default is probably fine. When done
-click "OK" to begin installation. The system will reboot multiple times, relog after disconnection.
+click "OK" to begin installation. The system will reboot multiple times, relogin after disconnection.
 
-5. After flare installation, open failed packages folder, and verify all the important packages were successfully installed.
+5. After flarevm installation, open failed packages folder, and verify all the important packages were successfully installed.
 
  ## Section Four
 Creating a AMI
 
 1. Return to the AWS console and stop the instance.
-While instance is stil selected, click Actions drop down then select Images and templates, and click "Create image"
+While instance is stil selected, click Actions drop down then select Images and templates, and click "Create image".
 
 ![Capture7](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/04c2cba2-c770-4716-90e7-e8be4141f667)
 
@@ -133,13 +133,13 @@ While instance is stil selected, click Actions drop down then select Images and 
 ![Screenshot 2023-08-31 224351](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/b2249ce2-68d6-4f2b-9ca3-f4c039e746d5)
 
 ## Section Five
-Create user
+Create user.
 
-1. Duplicate tab abd navigate to AWS IAM.
+1. Duplicate tab and navigate to AWS IAM.
 
 ![Screenshot 2023-08-31 224919](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/1e716f43-3639-4000-af74-fa4124a6c223)
 
-2. Go to Users and click Create users.
+2. Go to Users and click "Create users".
 Name it and click "Next"
 
 ![Capture51](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9023e3b3-0842-4c1d-8951-9dbae355637f)
@@ -159,7 +159,7 @@ then click "Create user group".
 ![Screenshot 2023-08-31 230416](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/5a7f4d30-b154-4627-a440-51ddcd216670)
 
 ## Section Six
-Create access key
+Create access key.
 Stay in IAM>Users
 
 1. Click the new user name.
@@ -170,7 +170,7 @@ Stay in IAM>Users
 
 ![Capture57](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/164b2af5-390c-41e5-9593-1b5393955ff3)
 
-3. Click "Create access key"
+3. Click "Create access key".
 
 ![Capture58](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/e151315b-49dc-4875-a5cb-8cf4ff9afff1)
 
@@ -183,25 +183,24 @@ Name is "XXX-Access-Key" and click "Create access key"
 
 ![Capture61](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/dd6f5782-4655-4dba-8023-f7e4589c7765)
 
-6. Retrive access key and secret key, copy them and paste in a document and click "Done"
+6. Retrive access key and secret key, copy them and paste in a document and click "Done".
 This will be the only time you will be able to copy both keys.
 
 ![Capture8](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/aba40879-3d3b-4d3a-84b0-d9939a1f5d64)
 
 ## Section Seven
-
 Setting remote acces to AWS.
 Multiple packages will need to be installed, "jq, AWS-CLI, and Terraform" on to your local machine.
-Homebree may need to be installed on macOS.
+Homebrew may need to be installed on macOS, if homebrew package manager is not already installed.
 
 Run Command:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-1. Install jq, awscli, and Terraform
+1. Install jq, awscli, and Terraform.
 
-Run commands:
+Run Commands:
 ```
 brew install jq
 brew install awscli
@@ -216,23 +215,23 @@ Test terraform by running “terraform -help” on the command line.
 ## Section Eight
 Setup working directory.
 
-1. Make a working directory
+1. Make a working directory.
 
-Run command:
+Run Command:
 ```
 mkdir malware-cloud-lab
 ```
 2. Change to new directory.
 
-Run command:
+Run Command:
 ```
 cd malware-cloud-lab
 ```
 ![Capture9](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/2260e0be-518c-4b3f-a799-a55ec13a3353)
 
-3. Run AWS-CLI to setup remote access
+3. Run AWS-CLI to setup remote access.
 
-Run command:
+Run Command:
 ```
 aws configure
 ```
@@ -244,7 +243,7 @@ Then type “json” and hit enter.
 ![Capture63](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/7e936d71-c3e9-4149-88f5-cbcc84c740b6)
 
 ## Section Nine
-Pull AWS-malware-lab clone
+Pull AWS-malware-lab clone.
 
 1. Clone a AWS malware lab from GitHub.
 
@@ -258,14 +257,14 @@ Edit files in the AWS-malware-lab directory.
 
 1. Move into the AWS-malware-lab directory.
 
-Run command:
+Run Command:
 ```
 cd AWS-malware-lab
 ```
 
-2. Make a file and name it “shared.auto.tfvars.json”
+2. Make a file and name it “shared.auto.tfvars.json”.
 
-Run command:
+Run Command:
 ```
 touch share.auto.tfvars.jason
 ```
@@ -297,7 +296,7 @@ Edit AWS-malware-lab files.
 
 2. Return to your local machine command line.
 
-Run command:
+Run Command:
 ```
 terraform –version
 ```
@@ -321,25 +320,25 @@ You should not get any errors in any of the below steps, troubleshoot if you get
 
 1. Initialize terraform.
 
-Run command:
+Run Command:
 ```
 terraform init
 ```
 2. Create the execution plan.
 
-Run command:
+Run Command:
 ```
 terraform plan
 ```
 
 3. Executes the actions.
 
-Run command:
+Run Command:
 ```
 terraform apply
 ```
 
-4. At the prompt type “yes”
+4. At the prompt type “yes”.
 The AWS infrastructure will begin building. At the completion of the build copy the output IP.
 
 ![Capture32](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/74b48f06-fc3b-47b1-9fff-23a1f278e897)
@@ -347,28 +346,28 @@ The AWS infrastructure will begin building. At the completion of the build copy 
 ## Section Thirteen
 Connect to malware lab/sandbox environment.
 
-1. Open RDP client enter copied IP. For macOS user open Microsoft Remote Desktop and add a new PC.
+1. Open RDP client enter copied IP. For macOS users open Microsoft Remote Desktop and add a new PC.
 Username = Administrator 
 Password = User password you decrypted in section two.
 
 ## Section Fourteen
-To run in an isolated environment, no internet access. Test INETSim server.
+To run in an isolated environment, no internet access. Test INETSim server, if set to true in Section Ten step 3.
 
 1. Open powershell
 
-Run command:
+Run Command:
 ```
 Get-NetAdapter -Name "Ethernet 2" | Set-DnsClientServerAddress -ServerAddresses 	"172.16.10.6"
 ```
 2. Test internet.
-Open a browser and do a google search you should see a INeTSim warning. Traffic is now route through fake DNS server.
+Open a browser and do a google search you should see a INeTSim warning. Traffic is now route through fake DNS server. If INetSim is not configured open internet will be acheived.
 
 ## Section Fifteen
-To shut down lab environment and delete AWS Infrastructure.
+To shut down sandbox environment and delete AWS Infrastructure.
 
 1. To destroy environment.
 
-Run command:
+Run Command:
 ```
 terraform destroy
 ```
