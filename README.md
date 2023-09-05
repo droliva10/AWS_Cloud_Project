@@ -39,7 +39,7 @@ Connect to instance via RDP.
    
 ![Capture47](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/25b25903-700d-4cd0-8910-75084c689c1f)
 
-3. Click the box for the new instance you want to connect to and click connect.
+3. Click the box for the new instance you want to connect to and click "Connect".
    
 ![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
 
