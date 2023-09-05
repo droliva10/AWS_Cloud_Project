@@ -35,18 +35,21 @@ In the below instrunction you will “Launch an AWS instance”.
 ## Section Two
 Connect to instance via RDP.
 
-1. After launching instance, click “View all Instances” at the bottom of the page. 
+1. After launching instance, click “View all Instances” at the bottom of the page.
+   
 ![Capture47](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/25b25903-700d-4cd0-8910-75084c689c1f)
 
-2. Click the box for the new instance you want to connect to and click connect. 
+3. Click the box for the new instance you want to connect to and click connect.
+   
 ![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
 
-3. Click the RDP client tab. If you are using Windows, download remote desktop file. For macOS go to step 4.
+5. Click the RDP client tab. If you are using Windows, download remote desktop file. For macOS go to step 4.
 
 Username:
 ```
 Administrator
 ```
+
 ![Capture49](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c696983c-b267-430d-bf4d-f5e5259564ba)
 
 4. Click "Get password" this password will be used to RDP into instance. Click "Upload private key file", this is
@@ -376,4 +379,4 @@ terraform destroy
 
 ## COST
 AWS On-demand Windows base: 0.0732 USD per Hour
-AWS On-demand Linux base: 0.0276 USD per Hour 
+AWS On-demand Linux base: 0.0276 USD per Hour
