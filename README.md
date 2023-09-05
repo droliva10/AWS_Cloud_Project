@@ -43,7 +43,7 @@ Connect to instance via RDP.
    
 ![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
 
-5. Click the RDP client tab. If you are using Windows, download remote desktop file. For macOS go to step 4.
+4. Click the RDP client tab. If you are using Windows, download remote desktop file and move on to step 5. For macOS users go to step 6 for more instructions.
 
 Username:
 ```
@@ -52,7 +52,7 @@ Administrator
 
 ![Capture49](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c696983c-b267-430d-bf4d-f5e5259564ba)
 
-4. Click "Get password" this password will be used to RDP into instance. Click "Upload private key file", this is
+5. Click "Get password" this password will be used to RDP into instance. Click "Upload private key file", this is
 was created you created a rsa key pair. Once uploaded click "decrypt password". Copy decyrpted password. Paste
 password in document and save file.
 
