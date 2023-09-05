@@ -43,7 +43,7 @@ Connect to instance via RDP.
    
 ![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
 
-4. Click the RDP client tab. If you are using Windows, download remote desktop file and move on to step 5. For macOS users decrytp password per step 5, check out step 6 for more instructions.
+4. Click the RDP client tab. If you are using Windows, download remote desktop file and move on to step 5. For macOS users decrypt password per step 5, check out step 6 for more instructions.
 
 Username:
 ```
