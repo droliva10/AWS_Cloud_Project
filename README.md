@@ -377,5 +377,6 @@ terraform destroy
 <img src ="AWS_Cloud_Project/Capture34.JPG">
 
 ## COST
-AWS On-demand Windows base: 0.0732 USD per Hour
-AWS On-demand Linux base: 0.0276 USD per Hour
+AWS On-demand Windows base: 0.0732 USD per Hour.
+
+AWS On-demand Linux base: 0.0276 USD per Hour, if running malware sandbox.
