@@ -4,25 +4,32 @@ Launching an AWS Instance.
 Make sure you are aware of what region you are in, select the region that is closest to you.  
 In the below instrunction you will “Launch an AWS instance”.
 
-1. In Name and tags field: Name Instance
+1. In Name and tags field: Name Instance.
+   
 ![Capture40](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9874d7d3-a946-4f7c-bbce-c9b59f2018a9)
 
-2. In Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base
+3. In Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base.
+   
 ![Capture41](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f6ca581b-7f5f-4434-a5af-023a3490b0b1)
 
-3. In Instance type: Select t2.medium
+5. In Instance type: Select t2.medium.
+   
 ![Capture42](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/02befa26-04e0-4282-b984-4d3290038c30)
 
-4. In Key pair(login): Click "Create key pair", and keep defaults.
+7. In Key pair(login): Click "Create key pair", and keep defaults.
+   
 ![Capture43](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/edac3c98-7b0d-46b9-a9e9-e7ddac2b0df7)
 
-5. In Network setting: Use default settings and make sure RDP is selected.
+9. In Network setting: Use default settings and make sure RDP is selected.
+    
 ![Capture44](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c39d0045-ebb5-4f01-aab5-5c0c6c3a786b)
 
-6. In Configure Storage: Change GiB to "60"
+11. In Configure Storage: Change GiB to "60"
+    
 ![Capture45](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/fc5db9e8-a79a-41c2-865a-600b3b1ea1e7)
 
-7. Click "Launch Instance" to launch instance.
+13. Click "Launch Instance" to launch instance.
+    
 ![Capture46](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f7170a93-f552-4c3b-9d18-a8efef5ada5b)
 
 ## Section Two
