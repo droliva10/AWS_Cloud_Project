@@ -10,38 +10,38 @@ In the below instrunction you will “Launch an AWS instance”.
 
 3. In Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base.
    
-![Capture41](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f6ca581b-7f5f-4434-a5af-023a3490b0b1)
+<img src = "AWS_Cloud_Project/Capture41.JPG">
 
 5. In Instance type: Select t2.medium.
    
-![Capture42](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/02befa26-04e0-4282-b984-4d3290038c30)
+<img src = "AWS_Cloud_Project/Capture42.JPG">
 
 7. In Key pair(login): Click "Create key pair", name key pair and keep default settings.
    
-![Capture43](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/edac3c98-7b0d-46b9-a9e9-e7ddac2b0df7)
+<img src = "AWS_Cloud_Project/Capture43.JPG">
 
 9. In Network settings: Use default settings and make sure RDP is selected.
     
-![Capture44](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c39d0045-ebb5-4f01-aab5-5c0c6c3a786b)
+<img src = "AWS_Cloud_Project/Capture44.JPG">
 
 11. In Configure Storage: Change GiB to "60"
     
-![Capture45](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/fc5db9e8-a79a-41c2-865a-600b3b1ea1e7)
+<img src = "AWS_Cloud_Project/Capture45.JPG">
 
 13. Click "Launch Instance" to launch instance.
     
-![Capture46](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f7170a93-f552-4c3b-9d18-a8efef5ada5b)
+<img src = "AWS_Cloud_Project/Capture46.JPG">
 
 ## Section Two
 Connect to instance via RDP.
 
 1. After launching instance, click “View all Instances” at the bottom of the page.
    
-![Capture47](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/25b25903-700d-4cd0-8910-75084c689c1f)
+<img src = "AWS_Cloud_Project/Capture47.JPG">
 
 3. Click the box for the new instance you want to connect to and click "Connect".
    
-![Capture48](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/0a7ebcac-51c7-44cb-b8fa-d5d208a731a6)
+<img src = "AWS_Cloud_Project/Capture48.JPG">
 
 4. Click the RDP client tab. If you are using Windows, download remote desktop file and move on to step 5. For macOS users decrypt password per step 5, check out step 6 for more instructions.
 
@@ -50,13 +50,13 @@ Username:
 Administrator
 ```
 
-![Capture49](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/c696983c-b267-430d-bf4d-f5e5259564ba)
+<img src = "AWS_Cloud_Project/Capture49.JPG">
 
 5. Click "Get password" this password will be used to RDP into instance. Click "Upload private key file", this is
 was created you created a rsa key pair. Once uploaded click "decrypt password". Copy decyrpted password. Paste
 password in document and save file.
 
-![Capture50](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/23e389e6-a93f-4457-86fe-c4f71d871fbb)
+<img src = "AWS_Cloud_Project/Capture50.JPG">
 
 6. In the download folder, double click remote descktop file to open a RDP executible file. When prompted paste Administrator
 password to authenticate the RDP sesssion. For macOS users, download macOS client.
@@ -75,7 +75,7 @@ Mandiant flare-VM script that will be the bases of you sandbox enviornment.
 
 [Go to URL:] (https://github.com/mandiant/flare-vm/blob/main/install.ps1)
 
-![Cature](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/52d992a5-1a8d-4f20-82b2-c3420faa047d)
+![Capture](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/52d992a5-1a8d-4f20-82b2-c3420faa047d)
 
 2. Open powershell and move to the Downloads directory.
 
@@ -98,13 +98,13 @@ Now navigate to Domain Profile.
 Computer Configuration>Administrative Templates>Network>Network Connections>Windows Defender Firewall>Domain Profile
 Open Window Defender Firewall: Protect all network connections: click disable, then apply and save.
 
-![Capture3](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f8559041-930c-4e7a-987a-3da80ce45d46)
+<img src = "AWS_Cloud_Project/Capture3.JPG">
 
 Now navigate to Standard Profile.
 Computer Configuration>Administrative Templates>Network>Network Connections>Windows Defender Firewall>Standard Profile
 Open Window Defender Firewall: Protect all network connections: click disable, then apply and save.
 
-![Capture5](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9f317b2d-d442-46be-a816-62a66a065e3f)
+<img src = "AWS_Cloud_Project/Capture5.JPG">
 
 4. Now click powershell on the bottom bar, which you minimized in step 2.
 
@@ -126,7 +126,7 @@ Creating a AMI
 1. Return to the AWS console and stop the instance.
 While instance is stil selected, click Actions drop down then select Images and templates, and click "Create image".
 
-![Capture7](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/04c2cba2-c770-4716-90e7-e8be4141f667)
+<img src = "AWS_Cloud_Project/Capture7.JPG">
 
 2. Name the image, keep default setting and click "Create image"
 
