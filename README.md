@@ -52,9 +52,10 @@ Administrator
 4. Click "Get password" this password will be used to RDP into instance. Click "Upload private key file", this is
 was created you created a rsa key pair. Once uploaded click "decrypt password". Copy decyrpted password. Paste
 password in document and save file.
+
 ![Capture50](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/23e389e6-a93f-4457-86fe-c4f71d871fbb)
 
-5. In the download folder, double click remote descktop file to open a RDP executible file. When prompted paste Administator
+6. In the download folder, double click remote descktop file to open a RDP executible file. When prompted paste Administator
 password to authenticate the RDP sesssion. For macOS users, download macOS client.
 
 [Check out this link for instruction to user and download Microsoft Remote Desktop] (https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac)
