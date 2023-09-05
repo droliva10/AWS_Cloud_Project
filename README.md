@@ -4,10 +4,10 @@ Launching an AWS Instance.
 Make sure you are aware of what region you are in, select the region that is closest to you.  
 In the below instrunction you will “Launch an AWS instance”.
 
-1. In the Name and tags field: Name Instance
+1. In Name and tags field: Name Instance
 ![Capture40](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/9874d7d3-a946-4f7c-bbce-c9b59f2018a9)
 
-2. In the Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base
+2. In Applications and OS Images (Amazon Machine Images): Select Microsoft Windows Server 2022 base
 ![Capture41](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/f6ca581b-7f5f-4434-a5af-023a3490b0b1)
 
 3. In Instance type: Select t2.medium
