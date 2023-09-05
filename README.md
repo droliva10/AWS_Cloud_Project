@@ -275,12 +275,12 @@ and "enable_inetsim" false. If you want to isolate instance during malware deton
 
 ```
 {
-     "environment": "malware-lab", 
-     "ami": "ami-xxxxxxxxxxxxxxxxxx", 
-     "account": "11111111111111", 
-     "region": "us-west-1", 
-     "enable_guacamole": false, 
-     "enable_inetsim": false 
+   "environment": "malware-lab",
+   "ami": "ami-xxxxxxxxxxxxxxxxx",
+   "account": "11111111111111",
+   "region": "us-west-1",
+   "enable_guacamole": false,
+   "enable_inetsim": false
 }
 ```
 
