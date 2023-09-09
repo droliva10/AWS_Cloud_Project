@@ -97,7 +97,7 @@ Once in the Local Group Policy Editor, navigate to Window Defender Antivirus.
 Computer Configuration>Administrative Templates>Windows Components>Microsoft Defender Antivirus
 Open "Turn off Microsoft Defender Antivirus" and click enable, then apply and save.
 
-
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 142425.png">
 
 Now navigate to Domain Profile.
 Computer Configuration>Administrative Templates>Network>Network Connections>Windows Defender Firewall>Domain Profile
