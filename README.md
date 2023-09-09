@@ -88,11 +88,16 @@ Set-ExecutionPolicy Unrestricted
 At the prompt type "Y" and hit enter. Now minimize powershell.
 
 3. Disable Microsoft Defender:
-Navigate to Proxy settings and turn off "Automatically detect settings".
-Navigate to Local Group Policy Editor, typing "group" in the search bar to query.
+Navigate to Proxy settings: Type "proxy" in search windows search bar and open Change proxy settings. Turn off "Automatically detect settings".
+
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 141029.png">
+
+Navigate to Local Group Policy Editor:  Type "group" in windows search bar and open "Edit group policy"
 Once in the Local Group Policy Editor, navigate to Window Defender Antivirus.
 Computer Configuration>Administrative Templates>Windows Components>Microsoft Defender Antivirus
 Open "Turn off Microsoft Defender Antivirus" and click enable, then apply and save.
+
+
 
 Now navigate to Domain Profile.
 Computer Configuration>Administrative Templates>Network>Network Connections>Windows Defender Firewall>Domain Profile
