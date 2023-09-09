@@ -85,7 +85,7 @@ Unblock-File ./
 Unblock-File ./install.ps1
 Set-ExecutionPolicy Unrestricted
 ```
-At the prompt type "yes" and hit enter. Now minimize powershell.
+At the prompt type "Y" and hit enter. Now minimize powershell.
 
 3. Disable Microsoft Defender:
 Navigate to Proxy settings and turn off "Automatically detect settings".
