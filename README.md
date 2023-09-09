@@ -81,8 +81,8 @@ Mandiant flare-VM script that will be the bases of you sandbox enviornment.
 
 Run Commands:
 ```
-Unlock-File ./
-Unlock-File ./install.ps1
+Unblock-File ./
+Unblock-File ./install.ps1
 Set-ExecutionPolicy Unrestricted
 ```
 At the prompt type "yes" and hit enter. Now minimize powershell.
