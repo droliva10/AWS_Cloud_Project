@@ -272,9 +272,9 @@ git clone https://github.com/droliva10/AWS_Cloud_Project
 ```
 
 ## Section Ten
-Edit files in the AWS-malware-lab directory.
+Edit files in the AWS_Cloud_Project directory.
 
-1. Move into the AWS-malware-lab directory.
+1. Move into the AWS_Cloud_Project directory.
 
 Run Command:
 ```
@@ -288,9 +288,8 @@ Run Command:
 touch share.auto.tfvars.jason
 ```
 3. Add the below block. The "ami" is ami of the flare-vm which was created in Section Four. The "account" is the AWS account.
-The "region" is the region the flare-VM the was created in. For a sandbox with only internet access, leave "enable_guacamole"
+The "region" is the region the flare-VM was created in. For a simple a sandbox with only internet access, leave "enable_guacamole"
 and "enable_inetsim" false. If you want to isolate instance during malware detonations, make INeTSim true.
-
 
 ```
 {
