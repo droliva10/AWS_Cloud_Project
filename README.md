@@ -359,7 +359,7 @@ terraform apply
 4. At the prompt type “yes”.
 The AWS infrastructure will begin building. At the completion of the build copy the output IP.
 
-<img src ="AWS_Cloud_Project/Capture32.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 220247.png">
 
 ## Section Thirteen
 Connect to malware lab/sandbox environment.
