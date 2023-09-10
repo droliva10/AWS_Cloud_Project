@@ -142,7 +142,7 @@ Create user.
 
 1. Duplicate tab and navigate to AWS IAM.
 
-<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 224919.png">
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 204436.png">
 
 2. Go to Users and click "Create users".
 Name it and click "Next"
