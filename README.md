@@ -131,7 +131,7 @@ Creating a AMI
 1. Return to the AWS console and stop the instance.
 While instance is stil selected, click Actions drop down then select Images and templates, and click "Create image".
 
-<img src = "AWS_Cloud_Project/Capture7.JPG">
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 205642.png">
 
 2. Name the image, keep default setting and click "Create image"
 
