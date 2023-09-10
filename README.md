@@ -196,7 +196,8 @@ This will be the only time you will be able to copy both keys.
 ## Section Seven
 Setting remote acces to AWS.
 Multiple packages will need to be installed, "jq, AWS-CLI, and Terraform" on to your local machine.
-Homebrew may need to be installed on macOS, if homebrew package manager is not already installed.
+Homebrew may need to be installed on macOS, if homebrew package manager is not already installed. If you are using windows
+WSL Ubuntu 20.4.x version go to sub section Seven.
 
 Run Command:
 ```
@@ -216,6 +217,8 @@ brew upgrade hashicorp/tap/terraform
 ```
 Test awscli by running “awscli” on the command line.
 Test terraform by running “terraform -help” on the command line.
+
+### Sub Section Seven
 
 ## Section Eight
 Setup working directory.
