@@ -302,7 +302,7 @@ and "enable_inetsim" false. If you want to isolate instance during malware deton
 }
 ```
 
-<img src ="AWS_Cloud_Project/Capture11.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 203554.png">
 <img src ="AWS_Cloud_Project/Capture20.JPG">
    
 ## Section Eleven
