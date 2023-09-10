@@ -197,7 +197,7 @@ This will be the only time you will be able to copy both keys.
 Setting remote acces to AWS.
 Multiple packages will need to be installed, "jq, AWS-CLI, and Terraform" on to your local machine.
 Homebrew may need to be installed on macOS, if homebrew package manager is not already installed. If you are using windows
-WSL Ubuntu 20.4.x version go to sub section Seven.
+WSL Ubuntu 22.4.x version go to sub section Seven.
 
 Run Command:
 ```
@@ -219,6 +219,17 @@ Test awscli by running “awscli” on the command line.
 Test terraform by running “terraform -help” on the command line.
 
 ### Sub Section Seven
+
+Run Commands:
+```
+sudo apt install jq
+sudo apt install awscli
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+```
+Test awscli by running “awscli” on the command line.
+Test terraform by running “terraform -help” on the command line.
 
 ## Section Eight
 Setup working directory.
