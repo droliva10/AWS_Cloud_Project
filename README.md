@@ -41,7 +41,7 @@ Connect to instance via RDP.
 
 3. Click the box for the new instance you want to connect to and click "Connect".
    
-<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 205040.png">
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-09 220621.png">
 
 4. Click the RDP client tab. If you are using Windows, download remote desktop file and move on to step 5. For macOS users decrypt password per step 5, check out step 6 for more instructions.
 
