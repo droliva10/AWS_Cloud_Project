@@ -330,7 +330,7 @@ This will outout the terraform version.
 4. Open instance.tf with a editor.
 Scroll down to “Linux instance with INeTSim” Edit the ami with the ami string you copied from step 1 of this section.
 
-<img src ="AWS_Cloud_Project/Capture38.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 214142.png">
 
 ## Section Twelve
 Build the AWS infrastructure.
