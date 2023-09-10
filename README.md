@@ -325,7 +325,7 @@ This will outout the terraform version.
 
 3. Open main.tf with a text editor. On the second line, edit terraform verion with the version output. Save exit editor.
 
-<img src ="AWS_Cloud_Project/Capture37.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 213810.png">
 
 4. Open instance.tf with a editor.
 Scroll down to “Linux instance with INeTSim” Edit the ami with the ami string you copied from step 1 of this section.
