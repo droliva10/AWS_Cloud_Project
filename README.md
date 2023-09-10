@@ -278,7 +278,7 @@ Edit files in the AWS_Cloud_Project directory.
 
 Run Command:
 ```
-cd AWS-malware-lab
+cd AWS_Cloud_Project
 ```
 
 2. Make a file and name it “shared.auto.tfvars.json”.
@@ -293,7 +293,7 @@ and "enable_inetsim" false. If you want to isolate instance during malware deton
 
 ```
 {
-   "environment": "malware-lab",
+   "environment": "sandbox-lab",
    "ami": "ami-xxxxxxxxxxxxxxxxx",
    "account": "11111111111111",
    "region": "us-west-1",
