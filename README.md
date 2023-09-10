@@ -246,7 +246,7 @@ Run Command:
 ```
 cd sandbox-cloud-lab
 ```
-<img src ="AWS_Cloud_Project/Capture9.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 210819.png">
 
 3. Run AWS-CLI to setup remote access.
 
