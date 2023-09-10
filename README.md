@@ -254,7 +254,7 @@ Pull AWS-malware-lab clone.
 
 Run command:
 ```
-git clone https://github.com/adanalvarez/AWS-malware-lab
+git clone https://github.com/droliva10/AWS_Cloud_Project
 ```
 
 ## Section Ten
