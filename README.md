@@ -259,7 +259,7 @@ At the prompt enter Secret Key and hit enter.
 Next enter the region the AWS instance and hit enter 
 Then type “json” and hit enter.
 
-<img src ="AWS_Cloud_Project/Capture63.JPG">
+<img src ="AWS_Cloud_Project/Screenshot 2023-09-09 211513.png">
 
 ## Section Nine
 Pull AWS_Cloud_Project clone.
