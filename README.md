@@ -224,13 +224,13 @@ Setup working directory.
 
 Run Command:
 ```
-mkdir malware-cloud-lab
+mkdir sandbox-cloud-lab
 ```
 2. Change to new directory.
 
 Run Command:
 ```
-cd malware-cloud-lab
+cd sandbox-cloud-lab
 ```
 <img src ="AWS_Cloud_Project/Capture9.JPG">
 
@@ -248,7 +248,7 @@ Then type “json” and hit enter.
 <img src ="AWS_Cloud_Project/Capture63.JPG">
 
 ## Section Nine
-Pull AWS-malware-lab clone.
+Pull AWS_Cloud_Project clone.
 
 1. Clone a AWS malware lab from GitHub.
 
