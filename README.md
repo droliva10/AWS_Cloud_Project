@@ -306,7 +306,7 @@ and "enable_inetsim" false. If you want to isolate instance during malware deton
 <img src ="AWS_Cloud_Project/Capture20.JPG">
    
 ## Section Eleven
-Edit AWS-malware-lab files.
+Edit AWS_Cloud_Project files.
 
 1. Go to AWS console and navigate to the AMI catalog. In the search bar search for "unbuntu". Copy the ami string.
 
