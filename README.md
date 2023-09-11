@@ -264,7 +264,7 @@ Then type “json” and hit enter.
 ## Section Nine
 Pull AWS_Cloud_Project clone.
 
-1. Clone a AWS malware lab from GitHub.
+1. Clone a AWS Cloud Project from GitHub.
 
 Run command:
 ```
