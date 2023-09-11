@@ -378,7 +378,7 @@ Run Command:
 Get-NetAdapter -Name "Ethernet 2" | Set-DnsClientServerAddress -ServerAddresses 	"172.16.10.6"
 ```
 2. Test internet.
-Open a browser and do a google search you should see a INeTSim warning. Traffic is now route through fake DNS server. If INetSim is not configured open internet will be acheived.
+Open a browser and do a google search you should see a INeTSim warning. Traffic is now routed through fake DNS server. If INetSim is not configured internet access will not be blocked.
 
 ## Section Fifteen
 To shut down sandbox environment and delete AWS Infrastructure.
