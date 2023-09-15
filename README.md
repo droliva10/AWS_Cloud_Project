@@ -375,7 +375,7 @@ To run in an isolated environment, no internet access. Test INETSim server, if s
 
 Run Command:
 ```
-Get-NetAdapter -Name "Ethernet 2" | Set-DnsClientServerAddress -ServerAddresses 	"172.16.10.6"
+Get-NetAdapter -Name "Ethernet 2" | Set-DnsClientServerAddress -ServerAddresses "172.16.10.6"
 ```
 2. Test internet.
 Open a browser and do a google search you should see a INeTSim warning. Traffic is now routed through fake DNS server. If INetSim is not configured internet access will not be blocked.
