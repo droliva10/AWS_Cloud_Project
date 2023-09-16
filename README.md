@@ -75,8 +75,6 @@ Mandiant flare-VM script that will be the bases of you sandbox enviornment.
 
 [Go to URL:] (https://github.com/mandiant/flare-vm/blob/main/install.ps1)
 
-![Capture](https://github.com/droliva10/AWS_Cloud_Project/assets/76188926/52d992a5-1a8d-4f20-82b2-c3420faa047d)
-
 2. Open powershell and move to the Downloads directory.
 
 Run Commands:
