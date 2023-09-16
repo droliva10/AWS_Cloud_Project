@@ -169,7 +169,7 @@ Stay in IAM>Users
 
 1. Click the new user name.
 
-<img src = "AWS_Cloud_Project/Screenshot 2023-08-31 230613.png">
+<img src = "AWS_Cloud_Project/Screenshot 2023-09-15 220002.png">
 
 2. Click "Security credentials" tab and scroll down to Access keys field.
 
