@@ -323,7 +323,7 @@ This will outout the terraform version.
 
 <img src ="AWS_Cloud_Project/Screenshot 2023-09-09 215337.png">
 
-3. Open main.tf with a text editor. On the second line, edit terraform verion with the version output. Save exit editor.
+3. Open main.tf with a text editor. On the second line, edit terraform version with the version output. Save exit editor.
 
 <img src ="AWS_Cloud_Project/Screenshot 2023-09-09 213810.png">
 
