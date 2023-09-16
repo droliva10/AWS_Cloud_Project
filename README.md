@@ -61,7 +61,7 @@ password in document and save file.
 6. In the download folder, double click remote descktop file to open a RDP executible file. When prompted paste Administrator
 password to authenticate the RDP sesssion. For macOS users, download macOS client.
 
-[Check out this link for instruction to user and download Microsoft Remote Desktop] (https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac)
+[Check out this link for instruction to user and download Microsoft Remote Desktop](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac)
 
 ## Section Three
 Configure the Windows Server with FlareVM.
@@ -70,10 +70,12 @@ Install both Chrome and Firefox browsers. If there is any particular malware ana
 for your sandbox environment, now would be a good time to install. If you setup and run INeTSim you will be isolated from
 the internet.
 
-1. While in the the newly create instance, open a browser of your choice and download the raw file. This is the
+1. While in the the newly create instance, open a browser of your choice and download the raw file from the repository below. This is the
 Mandiant flare-VM script that will be the bases of you sandbox enviornment.
 
-[Go to URL:] (https://github.com/mandiant/flare-vm/blob/main/install.ps1)
+```
+https://github.com/mandiant/flare-vm/blob/main/install.ps1
+```
 
 2. Open powershell and move to the Downloads directory.
 
